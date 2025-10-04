@@ -11,7 +11,6 @@ scrollBtn.onclick = function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
-// Smooth scroll for nav link
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
