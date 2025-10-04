@@ -275,7 +275,7 @@ footer {
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 0px 0px ;
 }
 
 .footer-menu ul li {
@@ -292,3 +292,5 @@ footer {
 .footer-menu ul li a:hover {
   color: #fff;
 }
+
+
