@@ -1,4 +1,4 @@
-// Scroll to top button
+// Scroll to top button 
 const scrollBtn = document.getElementById('scrollTopBtn');
 window.onscroll = function() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
@@ -17,3 +17,5 @@ document.querySelectorAll('nav a').forEach(link => {
     document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+// this is js codes
